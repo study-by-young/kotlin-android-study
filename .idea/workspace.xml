@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb91dc35-c671-4386-a49b-095adf48b300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/VisibilityModifier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Companion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.23908046&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.VisibilityModifierKt">
+  <component name="RunManager" selected="Kotlin.CompanionKt">
     <configuration name="AbstractClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractClassKt" />
       <module name="HelloKotlin" />
@@ -48,8 +48,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassKt" />
+    <configuration name="CompanionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompanionKt" />
       <module name="HelloKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CompanionKt" />
         <item itemvalue="Kotlin.VisibilityModifierKt" />
         <item itemvalue="Kotlin.DataClassKt" />
         <item itemvalue="Kotlin.AbstractClassKt" />
         <item itemvalue="Kotlin.InheritanceKt" />
-        <item itemvalue="Kotlin.ClassKt" />
       </list>
     </recent_temporary>
   </component>
