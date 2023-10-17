@@ -9,10 +9,11 @@ fun main(args: Array<String>) {
     var myName : String = "Koo"
     println(myName.reversed())
 
-    // 세이프 콜 연산자 ?
-    // 값이 null 일 때 null 반환
+    // Nullable ?
     var nullableMyName : String ? = null
 //    println(nullableMyName.reversed()) // nullable 한 값은 함수 사용 불가능
+    // 세이프 콜 연산자 ?
+    // 값이 null 일 때 null 반환
     println(nullableMyName?.reversed())
 
     // 엘비스 연산자 ?:
