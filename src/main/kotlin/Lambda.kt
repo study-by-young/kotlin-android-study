@@ -34,8 +34,13 @@ fun main(args: Array<String>) {
     fun testLambda(num : Int, lambda : (Int) -> (Int)) : Int {
         return num * lambda(10)
     }
-
     val testValue = testLambda(3) { it * it } // 300
     println(testValue)
+
+    fun testLambda2(lambda : (Int, Int) -> (Int)) : Int {
+        return lambda(5, 15)
+    }
+    val testValue2 = testLambda2 { x : Int, y : Int -> x + y } // 20
+    println(testValue2)
 
 }
